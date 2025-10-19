@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9d4a3e69-5d45-479c-a9f4-f330a084dd50" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/apps/api/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/api/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/api/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/src/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/src/modules/home/Home.page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Weather-App.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/.npmrc" beforeDir="false" afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/docs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/docs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/docs/app/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/docs/app/fonts/GeistMonoVF.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/docs/app/fonts/GeistVF.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/docs/app/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/docs/app/layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/docs/app/page.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/docs/app/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/docs/eslint.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/docs/next.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/docs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/docs/public/file-text.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/docs/public/globe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/docs/public/next.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/docs/public/turborepo-dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/docs/public/turborepo-light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/docs/public/vercel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/docs/public/window.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/docs/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/web/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/web/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/web/app/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/web/app/fonts/GeistMonoVF.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/web/app/fonts/GeistVF.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/web/app/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/web/app/layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/web/app/page.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/web/app/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/web/eslint.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/web/next.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/web/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/web/public/file-text.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/web/public/globe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/web/public/next.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/web/public/turborepo-dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/web/public/turborepo-light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/web/public/vercel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/web/public/window.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/apps/web/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/packages/eslint-config/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/packages/eslint-config/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/packages/eslint-config/next.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config/next.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/packages/eslint-config/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/packages/eslint-config/react-internal.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config/react-internal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/packages/typescript-config/base.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/typescript-config/base.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/packages/typescript-config/nextjs.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/typescript-config/nextjs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/packages/typescript-config/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/typescript-config/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/packages/typescript-config/react-library.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/typescript-config/react-library.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/packages/ui/eslint.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/eslint.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/packages/ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/packages/ui/src/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/src/button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/packages/ui/src/card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/src/card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/packages/ui/src/code.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/src/code.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/packages/ui/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/pnpm-workspace.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-workspace.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-turborepo/turbo.json" beforeDir="false" afterPath="$PROJECT_DIR$/turbo.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Po63jd0n&quot;
+  }
+}</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="11cfcd29-c3ec-435b-9663-4df8196950a2" />
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Po63jd0n/Weather-App.git&quot;,
+    &quot;accountId&quot;: &quot;11cfcd29-c3ec-435b-9663-4df8196950a2&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="34IWH4uK5Bc6sqSrh2T7YjfrGyl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "ts.external.directory.path": "C:\\Users\\balic\\WebstormProjects\\Weather-App\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\balic\WebstormProjects\Weather-App" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.26830.93" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d4a3e69-5d45-479c-a9f4-f330a084dd50" name="Changes" comment="" />
+      <created>1760901475518</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1760901475518</updated>
+      <workItem from="1760901476902" duration="3244000" />
+      <workItem from="1760904774900" duration="1560000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/apps/api/main.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
