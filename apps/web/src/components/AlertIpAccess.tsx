@@ -10,6 +10,7 @@ import {
     AlertDialogTrigger,
 } from "@/components/ui/alert-dialog"
 import { Button } from "@/components/ui/button"
+import {Cloud} from "lucide-react";
 
 
 export default function AlertIpAccess() {

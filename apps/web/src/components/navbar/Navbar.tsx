@@ -1,6 +1,13 @@
-export default function Navbar(){
+import { Sun, Moon } from "lucide-react";
+import { Switch } from "@/components/ui/switch";
+import { Label } from "@/components/ui/label";
+import { useState } from "react";
 
+
+export default function Navbar(){
+    const [darkMode, setDarkMode] = useState(false);
     const toggleDarkMode = () => {
+        let darkMode;
         setDarkMode(!darkMode);
         document.documentElement.classList.toggle('dark');
     };
@@ -13,9 +20,9 @@ export default function Navbar(){
                     <div className="flex items-center gap-3">
                         <div className="flex items-center gap-2">
                             {darkMode ? (
-                                <Moon className="w-8 h-8 text-blue-400" />
+                                <Moon className="w-8 h-8 text-blue-400"/>
                             ) : (
-                                <Sun className="w-8 h-8 text-yellow-500" />
+                                <Sun className="w-8 h-8 text-yellow-500"/>
                             )}
                             <h1 className="text-3xl">Weather Forecast</h1>
                         </div>
@@ -30,10 +37,10 @@ export default function Navbar(){
                             />
                             <Label htmlFor="dark-mode">Dark Mode</Label>
                         </div>
-                </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        );
+    );
                 }
