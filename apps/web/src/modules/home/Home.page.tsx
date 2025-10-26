@@ -1,5 +1,8 @@
 import { useEffect } from "react";
 import axios from "axios";
+import AlertIpAccess from "@/components/AlertIpAccess.tsx";
+import Navbar from "@/components/navbar/Navbar.tsx";
+
 
 const HomePage = () => {
   useEffect(() => {
@@ -13,11 +16,12 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div>
-      <h1>Witaj w aplikacji pogodowej!</h1>
-      <p>To jest prosty frontend startowy.</p>
-    </div>
+      <>
+        <Navbar />
+        <AlertIpAccess />
+      </>
   );
 };
+
 
 export default HomePage;

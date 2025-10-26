@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/apps/api/main.py">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/apps/api/main.py" />
+              <option name="originalContent" value="import httpx  &#10;from fastapi import FastAPI&#10;from dotenv import load_dotenv &#10;from fastapi.middleware.cors import CORSMiddleware &#10;import os &#10;load_dotenv()&#10;&#10;&#10;&#10;app = FastAPI() &#10;app.add_middleware(CORSMiddleware, allow_origins=[&quot;*&quot;], allow_credentials=True, allow_methods=[&quot;*&quot;], allow_headers=[&quot;*&quot;]) # nie do produkcji / wygodne w dev&#10;weather_api_key= os.getenv(&quot;WEATHER_API_KEY&quot;)&#10;ipify_api_url = &quot;https://api.ipify.org?format=json&quot;&#10;&#10;@app.get(&quot;/&quot;)&#10;async def hello_world():&#10;    return {&quot;message&quot;: &quot;Backend is working!&quot;}&#10;&#10;@app.get(&quot;/weather&quot;)&#10;async def get_weather():&#10;&#10;&#10;    async with httpx.AsyncClient() as client:&#10;        ip_response = await client.get(ipify_api_url)&#10;        ip_response.raise_for_status()&#10;        ip_data = ip_response.json()&#10;        user_ip = ip_data.get(&quot;ip&quot;)&#10;&#10;        weather_url = f&quot;https://api.weatherapi.com/v1/current.json?key={weather_api_key}&amp;q={user_ip}&quot;&#10;        weather_response = await client.get(weather_url)&#10;        weather_response.raise_for_status()&#10;        weather_data = weather_response.json()&#10;        return {&quot;weather&quot;: weather_data}" />
+              <option name="updatedContent" value="import httpx  &#10;from fastapi import FastAPI&#10;from dotenv import load_dotenv &#10;from fastapi.middleware.cors import CORSMiddleware &#10;import os &#10;load_dotenv()&#10;&#10;&#10;&#10;app = FastAPI() &#10;app.add_middleware(CORSMiddleware, allow_origins=[&quot;*&quot;], allow_credentials=True, allow_methods=[&quot;*&quot;], allow_headers=[&quot;*&quot;]) # nie do produkcji / wygodne w dev&#10;weather_api_key= os.getenv(&quot;WEATHER_API_KEY&quot;)&#10;ipify_api_url = &quot;https://api.ipify.org?format=json&quot;&#10;&#10;@app.get(&quot;/&quot;)&#10;async def hello_world():&#10;    return {&quot;message&quot;: &quot;Backend is working!&quot;}&#10;&#10;@app.get(&quot;/weather&quot;)&#10;async def get_weather():&#10;&#10;&#10;    async with httpx.AsyncClient() as client:&#10;        ip_response = await client.get(ipify_api_url)&#10;        ip_response.raise_for_status()&#10;        ip_data = ip_response.json()&#10;        user_ip = ip_data.get(&quot;ip&quot;)&#10;&#10;        weather_url = f&quot;https://api.weatherapi.com/v1/current.json?key={weather_api_key}&amp;q={user_ip}&quot;&#10;        weather_response = await client.get(weather_url)&#10;        weather_response.raise_for_status()&#10;        weather_data = weather_response.json()&#10;        return {&quot;weather&quot;: weather_data}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
