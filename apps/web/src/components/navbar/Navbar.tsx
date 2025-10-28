@@ -7,13 +7,16 @@ import { useState } from "react";
 export default function Navbar(){
     const [darkMode, setDarkMode] = useState(false);
     const toggleDarkMode = () => {
-        let darkMode;
-        setDarkMode(!darkMode);
+        setDarkMode((prevMode) => !prevMode);
         document.documentElement.classList.toggle('dark');
+    };
+    const [isCelsius, setIsCelsius] = useState(true);
+    const toggleUnit = () => {
+        setIsCelsius((prevUnit) => !prevUnit);
     };
 
     return (
-        <div className={`min-h-screen bg-background transition-colors duration-300 ${darkMode ? 'dark' : ''}`}>
+        <div className={`bg-background transition-colors duration-300 ${darkMode ? 'dark' : ''}`}>
             <div className="container mx-auto px-4 py-8">
                 {/* Header */}
                 <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-8">
@@ -27,7 +30,6 @@ export default function Navbar(){
                             <h1 className="text-3xl">Weather Forecast</h1>
                         </div>
                     </div>
-
                     <div className="flex items-center gap-4">
                         <div className="flex items-center space-x-2">
                             <Switch
@@ -37,10 +39,16 @@ export default function Navbar(){
                             />
                             <Label htmlFor="dark-mode">Dark Mode</Label>
                         </div>
+                            <Switch
+                                id="unit"
+                                checked={ isCelsius}
+                                onCheckedChange={toggleUnit}
+                            />
+                            <Label htmlFor="unit">{isCelsius ? '°C' : '°F'}</Label>
                     </div>
                 </div>
             </div>
         </div>
 
     );
-                }
+}

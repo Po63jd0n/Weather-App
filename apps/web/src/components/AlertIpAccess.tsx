@@ -7,22 +7,17 @@ import {
     AlertDialogFooter,
     AlertDialogHeader,
     AlertDialogTitle,
-    AlertDialogTrigger,
 } from "@/components/ui/alert-dialog"
-import { Button } from "@/components/ui/button"
-import {Cloud} from "lucide-react";
 
 
-export default function AlertIpAccess() {
+interface AlertIpAccessProps {
+    open?: boolean;
+    setOpen?: (open: boolean) => void;
+}
+
+export default function AlertIpAccess({open, setOpen }: AlertIpAccessProps ) {
     return (
-        <AlertDialog>
-            <AlertDialogTrigger asChild>
-                <div className="text-center py-12">
-                    <Cloud className="w-16 h-16 text-muted-foreground mx-auto mb-4"/>
-                    <Button variant="outline">Add Location</Button>
-                    Give access to your IP to get weather based on your location.
-                </div>
-            </AlertDialogTrigger>
+        <AlertDialog open={open} onOpenChange={setOpen}>
             <AlertDialogContent>
                 <AlertDialogHeader>
                     <AlertDialogTitle>Do you agree to share your IP</AlertDialogTitle>
@@ -39,5 +34,4 @@ export default function AlertIpAccess() {
         </AlertDialog>
     )
 }
-
-
+//onclick a potem zmiana stanu w home page
