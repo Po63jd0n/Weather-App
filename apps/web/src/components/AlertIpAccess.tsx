@@ -12,12 +12,13 @@ import {
 
 interface AlertIpAccessProps {
     open?: boolean;
-    setOpen?: (open: boolean) => void;
+    setAlertOpen?: (open: boolean) => void;
+    onGiveAccess?: () => void;
 }
 
-export default function AlertIpAccess({open, setOpen }: AlertIpAccessProps ) {
+export default function AlertIpAccess({open, setAlertOpen, onGiveAccess }: AlertIpAccessProps ) {
     return (
-        <AlertDialog open={open} onOpenChange={setOpen}>
+        <AlertDialog open={open} onOpenChange={setAlertOpen}>
             <AlertDialogContent>
                 <AlertDialogHeader>
                     <AlertDialogTitle>Do you agree to share your IP</AlertDialogTitle>
@@ -28,7 +29,7 @@ export default function AlertIpAccess({open, setOpen }: AlertIpAccessProps ) {
                 </AlertDialogHeader>
                 <AlertDialogFooter>
                     <AlertDialogCancel>Exit</AlertDialogCancel>
-                    <AlertDialogAction>Give Access</AlertDialogAction>
+                    <AlertDialogAction onClick={onGiveAccess}>Give Access</AlertDialogAction>
                 </AlertDialogFooter>
             </AlertDialogContent>
         </AlertDialog>
