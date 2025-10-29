@@ -21,15 +21,6 @@
             </PendingDiffInfo>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/apps/web/src/components/Content.tsx">
-          <value>
-            <PendingDiffInfo>
-              <option name="filePath" value="$PROJECT_DIR$/apps/web/src/components/Content.tsx" />
-              <option name="originalContent" value="import { Button } from &quot;@/components/ui/button&quot;&#10;import {Cloud} from &quot;lucide-react&quot;;&#10;import WeatherInfo from &quot;./WeatherInfo&quot;;&#10;&#10;interface ContentProps {&#10;    onAddLocationClick: () =&gt; void;&#10;}&#10;&#10;export default function Content({ onAddLocationClick }: ContentProps) {&#10;    // Teraz Content renderuje WeatherInfo. Stara implementacja zachowana poniżej jako komentarz.&#10;    return &lt;WeatherInfo onAddLocationClick={onAddLocationClick} /&gt;&#10;}&#10;&#10;// Stara implementacja (zakomentowana, można przywrócić jeśli trzeba):&#10;/*&#10;export default function Content({ onAddLocationClick }: ContentProps) {&#10;    return (&#10;        &lt;div className=&quot;flex flex-col items-center justify-center min-h-screen bg-background px-4&quot;&gt;&#10;            &lt;Cloud className=&quot;w-16 h-16 text-muted-foreground mx-auto mb-4&quot;/&gt;&#10;            &lt;Button variant=&quot;outline&quot; onClick = {onAddLocationClick}&gt; Weather Forecast&lt;/Button&gt;&#10;            &lt;div className=&quot;text-center py-12&quot;&gt;&#10;                Give access to your IP to get weather based on your location.&#10;            &lt;/div&gt;&#10;        &lt;/div&gt;&#10;    )&#10;}&#10;*/" />
-              <option name="updatedContent" value="import { Button } from &quot;@/components/ui/button&quot;&#10;import {Cloud} from &quot;lucide-react&quot;;&#10;import WeatherInfo from &quot;./WeatherInfo&quot;;&#10;&#10;interface ContentProps {&#10;    onAddLocationClick: () =&gt; void;&#10;}&#10;&#10;export default function Content({ onAddLocationClick }: ContentProps) {&#10;    // Teraz Content renderuje WeatherInfo. Stara implementacja zachowana poniżej jako komentarz.&#10;    return &lt;WeatherInfo onAddLocationClick={onAddLocationClick} /&gt;&#10;}&#10;&#10;// Stara implementacja (zakomentowana, można przywrócić jeśli trzeba):&#10;/*&#10;export default function Content({ onAddLocationClick }: ContentProps) {&#10;    return (&#10;        &lt;div className=&quot;flex flex-col items-center justify-center min-h-screen bg-background px-4&quot;&gt;&#10;            &lt;Cloud className=&quot;w-16 h-16 text-muted-foreground mx-auto mb-4&quot;/&gt;&#10;            &lt;Button variant=&quot;outline&quot; onClick = {onAddLocationClick}&gt; Weather Forecast&lt;/Button&gt;&#10;            &lt;div className=&quot;text-center py-12&quot;&gt;&#10;                Give access to your IP to get weather based on your location.&#10;            &lt;/div&gt;&#10;        &lt;/div&gt;&#10;    )&#10;}&#10;*/" />
-            </PendingDiffInfo>
-          </value>
-        </entry>
       </map>
     </option>
   </component>

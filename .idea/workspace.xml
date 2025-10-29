@@ -7,8 +7,6 @@
     <list default="true" id="9d4a3e69-5d45-479c-a9f4-f330a084dd50" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/copilotDiffState.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilotDiffState.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/src/components/AlertIpAccess.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web/src/components/AlertIpAccess.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/src/components/Content.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web/src/components/Content.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/web/src/components/WeatherInfo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web/src/components/WeatherInfo.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/web/src/modules/home/Home.page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web/src/modules/home/Home.page.tsx" afterDir="false" />
     </list>
@@ -103,7 +101,9 @@
       <workItem from="1761470744883" duration="11132000" />
       <workItem from="1761494222028" duration="9556000" />
       <workItem from="1761669516339" duration="14310000" />
-      <workItem from="1761755104101" duration="3711000" />
+      <workItem from="1761755104101" duration="3810000" />
+      <workItem from="1761760936016" duration="1246000" />
+      <workItem from="1761763554079" duration="2612000" />
     </task>
     <servers />
   </component>
